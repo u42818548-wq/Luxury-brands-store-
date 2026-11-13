@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#090909">
+<title>SHOP OF LUXURIOUS | Premium Fashion</title>
+<style>
+:root{--gold:#d6b45b;--black:#090909;--panel:#151515;--muted:#aaa}
+*{box-sizing:border-box}body{margin:0;background:var(--black);color:#f7f4ec;font-family:Arial,Helvetica,sans-serif}
+header{padding:18px 5%;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #302819;position:sticky;top:0;background:#090909ed;z-index:5}
+.logo{font-family:Georgia,serif;color:var(--gold);font-size:19px;letter-spacing:2px;font-weight:bold}
+nav a{color:#eee;text-decoration:none;margin-left:16px;font-size:13px}
+.hero{padding:70px 7% 65px;text-align:center;background:radial-gradient(ellipse at top,#302719 0%,#090909 65%)}
+.eyebrow{color:var(--gold);letter-spacing:4px;font-size:11px}
+h1{font-family:Georgia,serif;font-size:clamp(35px,8vw,66px);font-weight:normal;margin:18px 0 12px}
+h1 span{color:var(--gold)}.hero p{color:#c5c0b5;max-width:540px;margin:0 auto 25px;line-height:1.7}
+.btn{display:inline-block;background:var(--gold);color:#111;padding:13px 22px;text-decoration:none;font-weight:bold;font-size:13px;border-radius:2px}
+section{padding:42px 6%}.section-head{text-align:center;margin-bottom:25px}
+.section-head h2{font-family:Georgia,serif;font-size:30px;font-weight:normal;margin:8px}
+.section-head p{color:var(--muted);font-size:13px}
+.categories{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:25px 0}
+.cat{border:1px solid #4a3b20;padding:18px 8px;text-align:center;color:var(--gold);font-family:Georgia,serif}
+.products{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.card{background:var(--panel);border:1px solid #29251c;overflow:hidden}
+.card img{width:100%;height:190px;object-fit:cover;background:#222}
+.card-info{padding:13px}.tag{font-size:10px;color:var(--gold);letter-spacing:2px}
+.card h3{font-family:Georgia,serif;font-weight:normal;margin:8px 0;font-size:17px}
+.price{color:var(--gold);font-weight:bold;margin-bottom:12px}
+.order{display:block;text-align:center;background:#d6b45b;color:#111;text-decoration:none;padding:10px;font-size:12px;font-weight:bold}
+.note{text-align:center;color:#999;font-size:12px;line-height:1.6;margin-top:18px}
+.about{background:#111;text-align:center;border-top:1px solid #302819;border-bottom:1px solid #302819}
+footer{text-align:center;padding:28px 15px;color:#aaa;font-size:12px}
+footer strong{color:var(--gold);letter-spacing:2px}
+@media(min-width:700px){.products{grid-template-columns:repeat(3,minmax(0,1fr))}.card img{height:240px}.hero{padding:100px 7%}}
+@media(max-width:380px){nav a{margin-left:8px;font-size:11px}.logo{font-size:15px}.card img{height:150px}}
+</style>
+</head>
+<body>
+<header>
+  <div class="logo">SHOP OF LUXURIOUS</div>
+  <nav><a href="#products">Shop</a><a href="#about">About</a></nav>
+</header>
+<main>
+  <section class="hero">
+    <div class="eyebrow">TIMELESS STYLE • EVERYDAY LUXURY</div>
+    <h1>Elevate Your <span>Style.</span></h1>
+    <p>Discover watches, clothing and footwear chosen to bring a premium touch to your everyday look.</p>
+    <a class="btn" href="#products">EXPLORE COLLECTION</a>
+  </section>
+  <section id="products">
+    <div class="section-head">
+      <div class="eyebrow">OUR COLLECTION</div>
+      <h2>Shop by Category</h2>
+      <p>Find your next favourite piece.</p>
+    </div>
+    <div class="categories">
+      <div class="cat">⌚ Watches</div><div class="cat">✦ Clothing</div><div class="cat">👟 Shoes</div>
+    </div>
+    <div class="products">
+      <article class="card">
+        <img src="https://images.unsplash.com/photo-1524805444758-089113d48a6d?w=700" alt="Classic wristwatch">
+        <div class="card-info"><div class="tag">WATCHES</div><h3>Classic Watch</h3><div class="price">Rs. Add price</div><a class="order" href="https://wa.me/92XXXXXXXXXX?text=I%20want%20to%20order%20Classic%20Watch">ORDER ON WHATSAPP</a></div>
+      </article>
+      <article class="card">
+        <img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=700" alt="Casual clothing">
+        <div class="card-info"><div class="tag">CLOTHING</div><h3>Everyday Essential</h3><div class="price">Rs. Add price</div><a class="order" href="https://wa.me/92XXXXXXXXXX?text=I%20want%20to%20order%20Everyday%20Essential">ORDER ON WHATSAPP</a></div>
+      </article>
+      <article class="card">
+        <img src="https://images.unsplash.com/photo-1542207200-6e4e7f6a1a2f?w=700" alt="Sneakers">
+        <div class="card-info"><div class="tag">FOOTWEAR</div><h3>Urban Sneakers</h3><div class="price">Rs. Add price</div><a class="order" href="https://wa.me/92XXXXXXXXXX?text=I%20want%20to%20order%20Urban%20Sneakers">ORDER ON WHATSAPP</a></div>
+      </article>
+    </div>
+    <p class="note">Sample products shown for layout preview. Replace photos, names and prices with your own products before publishing.</p>
+  </section>
+  <section class="about" id="about">
+    <div class="eyebrow">THE LUXURIOUS EXPERIENCE</div>
+    <h2 style="font-family:Georgia,serif;font-weight:normal">Style. Quality. Confidence.</h2>
+    <p style="color:#aaa;line-height:1.7;max-width:550px;margin:auto">Your destination for watches, clothing and shoes. Message us on WhatsApp to ask about availability, sizes and delivery.</p>
+    <p style="margin-top:24px"><a class="btn" href="https://instagram.com/">VISIT OUR INSTAGRAM</a></p>
+  </section>
+</main>
+<footer><strong>SHOP OF LUXURIOUS</strong><p>Premium watches • Clothing • Footwear</p>© 2026 Shop of Luxurious</footer>
+</body>
+</html>
